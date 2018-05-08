@@ -3,7 +3,7 @@ import OverviewContainer from '../../../containers/App/Overview/OverviewContaine
 
 class OverviewScreen extends React.Component {
   static navigationOptions = {
-    header: null,
+    title: 'Übersicht',
   };
 
   render() {

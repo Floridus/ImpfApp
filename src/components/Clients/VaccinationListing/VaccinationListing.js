@@ -60,7 +60,7 @@ class VaccinationListing extends React.Component {
           }}
         />
         <ActionButton
-          buttonColor="rgba(231,76,60,1)"
+          buttonColor={COLORS.SECONDARY}
           onPress={() => {
             console.log('hi');
           }}

@@ -11,7 +11,7 @@ const MainTabNavigator = createBottomTabNavigator({
       screen: OverviewScreen,
       path: 'overview',
       navigationOptions: ({ navigation }) => ({
-        title: `Übersicht`,
+        title: 'Übersicht',
         tabBarIcon: (iconState) => {
           return (
             <Icon set="material" name="home" size={20} color={iconState.tintColor} />
@@ -23,7 +23,7 @@ const MainTabNavigator = createBottomTabNavigator({
       screen: VaccinationListingScreen,
       path: 'vaccinations',
       navigationOptions: ({ navigation }) => ({
-        title: `Impfungen`,
+        title: 'Impfungen',
         tabBarIcon: (iconState) => {
           return (
             <Icon set="material" name="healing" size={20} color={iconState.tintColor} />
@@ -35,9 +35,16 @@ const MainTabNavigator = createBottomTabNavigator({
   {
     initialRouteName: 'Overview',
     tabBarOptions: {
-      activeTintColor: COLORS.PRIMARY,
+      activeTintColor: COLORS.WHITE,
       inactiveTintColor: COLORS.INACTIVE,
+      style: {
+        backgroundColor: COLORS.PRIMARY,
+      },
     },
+    navigationOptions: ({ navigation }) => ({
+      title: navigation.title ? navigation.title : 'Test',
+      ...navigation.navigationOptions,
+    }),
   });
 
 export default MainTabNavigator;

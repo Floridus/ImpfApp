@@ -2,6 +2,7 @@ import React from 'react';
 import { TouchableOpacity, Text } from 'react-native';
 import VaccinationPropType from '../../../containers/Clients/proptypes/vaccinationPropType';
 import { withNavigation } from 'react-navigation';
+import { ListItem } from 'react-native-elements';
 
 class VaccinationListingItem extends React.Component {
   /**
@@ -22,13 +23,16 @@ class VaccinationListingItem extends React.Component {
 
   render() {
     const { vaccination } = this.props;
+    const testAvatar = 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg';
 
     return (
       <TouchableOpacity
         onPress={this._goToDetail}
-        style={{ paddingTop: 20, paddingLeft: 20, paddingRight: 20, paddingBottom: 20 }}
       >
-        <Text>{vaccination.title}</Text>
+        <ListItem
+          title={vaccination.title}
+          leftAvatar={{ source: { uri: testAvatar } }}
+        />
       </TouchableOpacity>
     );
   }

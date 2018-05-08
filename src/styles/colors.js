@@ -1,8 +1,8 @@
 const COLORS = {
   PRIMARY: '#375D81',
   SECONDARY: '#ABC8E2',
-  CONTRAST: '#C4D7ED',
-  INACTIVE: '#999999',
+  INACTIVE: '#C4D7ED',
+  WHITE: '#FFFFFF',
 };
 
 export default COLORS;

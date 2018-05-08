@@ -1,8 +1,12 @@
 import React from 'react';
-import { View, Text } from 'react-native';
-import ClientListingContainer from '../../../containers/Clients/components/VaccinationListing/VaccinationListingContainer';
+import ClientListingContainer
+  from '../../../containers/Clients/components/VaccinationListing/VaccinationListingContainer';
 
 class VaccinationListingScreen extends React.Component {
+  static navigationOptions = {
+    title: 'Impfungen',
+  };
+
   render() {
     return (
       <ClientListingContainer />
