@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import VaccinationListing
-  from '../../../../components/Clients/VaccinationListing/VaccinationListing';
+  from '../../../../components/Vaccinations/VaccinationListing/VaccinationListing';
 import { fetchVaccinations } from '../../stores/vaccinations';
 
 class VaccinationListingContainer extends React.Component {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { TouchableOpacity, Text } from 'react-native';
-import VaccinationPropType from '../../../containers/Clients/proptypes/vaccinationPropType';
+import VaccinationPropType from '../../../containers/Vaccinations/proptypes/vaccinationPropType';
 import { withNavigation } from 'react-navigation';
 import { ListItem } from 'react-native-elements';
 
@@ -30,8 +30,9 @@ class VaccinationListingItem extends React.Component {
         onPress={this._goToDetail}
       >
         <ListItem
-          title={vaccination.title}
-          leftAvatar={{ source: { uri: testAvatar } }}
+          title={vaccination.type}
+          subtitle={vaccination.date}
+          avatar={{ source: { uri: testAvatar } }}
         />
       </TouchableOpacity>
     );

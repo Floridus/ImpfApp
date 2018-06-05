@@ -1,4 +1,4 @@
-import vaccinations from './containers/Clients/stores/vaccinations';
+import vaccinations from './containers/Vaccinations/stores/vaccinations';
 
 const reducers = {
   vaccinations,

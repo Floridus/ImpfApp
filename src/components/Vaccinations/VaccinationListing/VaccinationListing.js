@@ -1,11 +1,12 @@
 import React from 'react';
 import { StyleSheet, FlatList, Text, View } from 'react-native';
+import { withNavigation } from 'react-navigation';
 import PropTypes from 'prop-types';
-import VaccinationPropType from '../../../containers/Clients/proptypes/vaccinationPropType';
-import VaccinationListingItem from './VaccinationListingItem';
-import LoadingIndicator from '../../App/LoadingIndicator/LoadingIndicator';
 import ActionButton from 'react-native-action-button';
+
 import COLORS from '../../../styles/colors';
+
+import VaccinationListingItem from './VaccinationListingItem';
 import Icon from '../../../../common/components/Icon/Icon';
 
 class VaccinationListing extends React.Component {
@@ -16,7 +17,7 @@ class VaccinationListing extends React.Component {
    * @private
    */
   _keyExtractor = (item) => {
-    return `vaccination-listing-${item.id}`;
+    return `vaccination-listing-${item.date}-${item.type}-${item.period}`;
   };
 
   /**
@@ -32,22 +33,21 @@ class VaccinationListing extends React.Component {
     );
   };
 
+  /**
+   * Go to add vaccination screen
+   * @private
+   */
+  _addVaccination = () => {
+    const { navigation } = this.props;
+
+    navigation.navigate(
+      'AddVaccinationScreen',
+      {},
+    );
+  };
+
   render() {
-    const { vaccinations, errorMessage, loading } = this.props;
-
-    if (errorMessage) {
-      return (
-        <View>
-          <Text>FEHLER: {errorMessage}</Text>
-        </View>
-      );
-    }
-
-    if (loading) {
-      return (
-        <LoadingIndicator />
-      );
-    }
+    const { vaccinations } = this.props;
 
     return (
       <View style={{ flex: 1, backgroundColor: '#f3f3f3' }}>
@@ -61,9 +61,7 @@ class VaccinationListing extends React.Component {
         />
         <ActionButton
           buttonColor={COLORS.SECONDARY}
-          onPress={() => {
-            console.log('hi');
-          }}
+          onPress={this._addVaccination}
         >
           <Icon set="material" name="add" size={20} color={COLORS.PRIMARY}
                 style={styles.actionButtonIcon} />
@@ -82,15 +80,11 @@ const styles = StyleSheet.create({
 });
 
 VaccinationListing.propTypes = {
-  vaccinations: PropTypes.arrayOf(VaccinationPropType),
-  loading: PropTypes.bool,
-  errorMessage: PropTypes.string,
+  vaccinations: PropTypes.any,
 };
 
 VaccinationListing.defaultProps = {
   vaccinations: [],
-  loading: false,
-  errorMessage: null,
 };
 
-export default VaccinationListing;
+export default withNavigation(VaccinationListing);

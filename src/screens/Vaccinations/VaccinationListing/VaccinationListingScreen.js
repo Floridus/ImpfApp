@@ -1,6 +1,6 @@
 import React from 'react';
 import ClientListingContainer
-  from '../../../containers/Clients/components/VaccinationListing/VaccinationListingContainer';
+  from '../../../containers/Vaccinations/components/VaccinationListing/VaccinationListingContainer';
 
 class VaccinationListingScreen extends React.Component {
   static navigationOptions = {

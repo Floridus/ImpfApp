@@ -1,9 +1,13 @@
 import { createStackNavigator } from 'react-navigation';
+import { Platform } from 'react-native';
+
+import COLORS from '../styles/colors';
+
 import MainTabNavigator from './MainTabNavigator';
+
 import VaccinationDetailScreen
   from '../screens/Vaccinations/VaccinationDetail/VaccinationDetailScreen';
-import { Platform } from 'react-native';
-import COLORS from '../styles/colors';
+import AddVaccinationScreen from '../screens/Vaccinations/AddVaccination/AddVaccinationScreen';
 
 const RootNavigator = createStackNavigator({
     MainTabs: {
@@ -14,6 +18,7 @@ const RootNavigator = createStackNavigator({
     },
 
     VaccinationDetailScreen: { screen: VaccinationDetailScreen },
+    AddVaccinationScreen: { screen: AddVaccinationScreen },
   },
   {
     initialRouteName: 'MainTabs',

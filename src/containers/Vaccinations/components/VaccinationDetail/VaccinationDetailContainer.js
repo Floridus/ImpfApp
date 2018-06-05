@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
-import VaccinationDetail from '../../../../components/Clients/VaccinationDetail/VaccinationDetail';
+import VaccinationDetail from '../../../../components/Vaccinations/VaccinationDetail/VaccinationDetail';
 
 class VaccinationDetailContainer extends React.Component {
 

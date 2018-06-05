@@ -1,6 +1,6 @@
 import React from 'react';
 import VaccinationDetailContainer
-  from '../../../containers/Clients/components/VaccinationDetail/VaccinationDetailContainer';
+  from '../../../containers/Vaccinations/components/VaccinationDetail/VaccinationDetailContainer';
 
 class VaccinationDetailScreen extends React.Component {
   render() {
