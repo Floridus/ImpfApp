@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import moment from 'moment';
-import { AsyncStorage, TextInput } from 'react-native';
+import randomID from 'random-id';
+import { AsyncStorage, TextInput, Text } from 'react-native';
 import { Button } from 'react-native-elements';
 import { withNavigation } from 'react-navigation';
 import { showMessage, hideMessage } from 'react-native-flash-message';
@@ -37,6 +38,7 @@ class AddVaccination extends React.Component {
    * @private
    */
   _goToVaccinationList = () => {
+
     console.log('_goToVaccinationList');
     this.setState({
       loading: false,
@@ -45,19 +47,17 @@ class AddVaccination extends React.Component {
 
     navigation.navigate(
       'Vaccinations',
-      {},
+      {
+        update: true,
+      },
     );
   };
 
   _checkInputs() {
-    console.log('_checkInputs');
-    console.log(this.state);
     return !(this.state.type === '' || this.state.period === '');
   }
 
   async _addVaccination() {
-    console.log('_addVaccination');
-    console.log(this._checkInputs());
     if (!this._checkInputs()) {
       showMessage({
         message: 'Du hast noch nicht alle Angaben ausgefüllt',
@@ -69,17 +69,13 @@ class AddVaccination extends React.Component {
         loading: true,
       });
     }
-    console.log('success');
 
     let value;
     try {
-      console.log('test');
       value = await AsyncStorage.getItem('@ImpfAppStore:vaccinations');
       if (value === null) {
-        console.log('value is null');
         value = [];
       } else {
-        console.log('value is ', value);
         value = JSON.parse(value);
       }
     } catch (error) {
@@ -87,17 +83,16 @@ class AddVaccination extends React.Component {
       console.error(error);
       value = [];
     }
-    console.log(value);
+    const generatedId = randomID();
 
     const vaccination = {
+      id: generatedId,
       date: this.state.date,
       type: this.state.type,
       period: this.state.period,
       info: this.state.info,
     };
-    console.log(vaccination);
     value.push(vaccination);
-    console.log(value);
 
     try {
       await AsyncStorage.setItem('@ImpfAppStore:vaccinations', JSON.stringify(value));
@@ -152,7 +147,9 @@ class AddVaccination extends React.Component {
             <NextRefresher onChangePeriod={this._changeState} period={this.state.period} />
           </FormGroup>
           <FormGroup>
-            <FormGroupTitle>Informationen</FormGroupTitle>
+            <FormGroupTitle>
+              Informationen <Text>(optional)</Text>
+            </FormGroupTitle>
             <TextInput
               style={{ height: 40 }}
               multiline={true}

@@ -1,5 +1,6 @@
 import React from 'react';
-import { StyleSheet, FlatList, Text, View } from 'react-native';
+import moment from 'moment';
+import { StyleSheet, FlatList, View } from 'react-native';
 import { withNavigation } from 'react-navigation';
 import PropTypes from 'prop-types';
 import ActionButton from 'react-native-action-button';
@@ -48,11 +49,16 @@ class VaccinationListing extends React.Component {
 
   render() {
     const { vaccinations } = this.props;
+    const vaccinationListing = vaccinations.sort(function compare(a, b) {
+      const dateA = moment(a.date, 'DD.MM.YYYY');
+      const dateB = moment(b.date, 'DD.MM.YYYY');
+      return dateA.isAfter(dateB);
+    });
 
     return (
-      <View style={{ flex: 1, backgroundColor: '#f3f3f3' }}>
+      <View style={{ flex: 1, backgroundColor: COLORS.LIGHTGRAY }}>
         <FlatList
-          data={vaccinations}
+          data={vaccinationListing}
           keyExtractor={this._keyExtractor}
           renderItem={this._renderItem}
           style={{

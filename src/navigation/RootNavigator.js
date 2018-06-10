@@ -14,6 +14,7 @@ const RootNavigator = createStackNavigator({
       screen: MainTabNavigator,
       navigationOptions: ({ navigation }) => ({
         ...navigation.navigationOptions,
+        title: 'ImpfApp',
       }),
     },
 

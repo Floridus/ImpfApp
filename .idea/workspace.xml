@@ -2,26 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9fe9273-6e0c-43c3-8eeb-291f75840cbc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App/MyDatePicker/MyDatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Vaccinations/AddVaccination/AddVaccination.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Vaccinations/Vaccinations/NextRefresher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Vaccinations/Vaccinations/Vaccinations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Vaccinations/components/AddVaccination/AddVaccinationContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Vaccinations/components/TestLoading/VaccinationListingContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Vaccinations/AddVaccination/AddVaccinationScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Vaccinations/RefreshListing/RefreshListing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Vaccinations/RefreshListing/RefreshListingItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Vaccinations/components/RefreshListing/RefreshListingContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Vaccinations/RefreshListing/RefreshListingScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Clients/VaccinationDetail/VaccinationDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vaccinations/VaccinationDetail/VaccinationDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Clients/VaccinationListing/VaccinationListing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vaccinations/VaccinationListing/VaccinationListing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Clients/VaccinationListing/VaccinationListingItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vaccinations/VaccinationListing/VaccinationListingItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Clients/components/VaccinationDetail/VaccinationDetailContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Vaccinations/components/VaccinationDetail/VaccinationDetailContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Clients/components/VaccinationListing/VaccinationListingContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Vaccinations/components/VaccinationListing/VaccinationListingContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Clients/proptypes/vaccinationPropType.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Vaccinations/proptypes/vaccinationPropType.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Clients/stores/vaccinations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Vaccinations/stores/vaccinations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/Overview/Overview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/Overview/Overview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Vaccinations/AddVaccination/AddVaccination.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vaccinations/AddVaccination/AddVaccination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Vaccinations/VaccinationDetail/VaccinationDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vaccinations/VaccinationDetail/VaccinationDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Vaccinations/VaccinationListing/VaccinationListing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vaccinations/VaccinationListing/VaccinationListing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Vaccinations/VaccinationListing/VaccinationListingItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vaccinations/VaccinationListing/VaccinationListingItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Vaccinations/components/VaccinationDetail/VaccinationDetailContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Vaccinations/components/VaccinationDetail/VaccinationDetailContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Vaccinations/components/VaccinationListing/VaccinationListingContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Vaccinations/components/VaccinationListing/VaccinationListingContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigation/MainTabNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/MainTabNavigator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/navigation/RootNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/RootNavigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Vaccinations/VaccinationDetail/VaccinationDetailScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Vaccinations/VaccinationDetail/VaccinationDetailScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/Vaccinations/VaccinationListing/VaccinationListingScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Vaccinations/VaccinationListing/VaccinationListingScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/colors.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,12 +32,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="AddVaccination.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/AddVaccination/AddVaccination.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+            <state relative-caret-position="493">
+              <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -50,11 +48,20 @@
       <file leaf-file-name="VaccinationListingContainer.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/Vaccinations/components/VaccinationListing/VaccinationListingContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+            <state relative-caret-position="298">
+              <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RefreshListingItem.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/RefreshListing/RefreshListingItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -62,58 +69,10 @@
       <file leaf-file-name="VaccinationListing.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/VaccinationListing/VaccinationListing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+            <state relative-caret-position="153">
+              <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VaccinationListingItem.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/VaccinationListing/VaccinationListingItem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="87" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Overview.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/App/Overview/Overview.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RootNavigator.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/navigation/RootNavigator.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,6 +91,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>styled</find>
+      <find>Icon</find>
+      <find>background</find>
+      <find>PropType</find>
+      <find>VaccinationListingItem</find>
+      <find>RefreshListingItem</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,22 +106,31 @@
       <list>
         <option value="$PROJECT_DIR$/src/components/Clients/VaccinationDetail/VaccinationDetail.js" />
         <option value="$PROJECT_DIR$/src/components/Clients/VaccinationListing/VaccinationListingItem.js" />
-        <option value="$PROJECT_DIR$/src/navigation/RootNavigator.js" />
         <option value="$PROJECT_DIR$/src/components/Clients/VaccinationListing/VaccinationListing.js" />
         <option value="$PROJECT_DIR$/src/screens/Vaccinations/AddVaccination/AddVaccinationScreen.js" />
         <option value="$PROJECT_DIR$/src/containers/Clients/components/AddVaccination/AddVaccinationContainer.js" />
         <option value="$PROJECT_DIR$/src/components/Clients/AddVaccination/AddVaccination.js" />
         <option value="$PROJECT_DIR$/src/components/Vaccinations/AddVaccination/AddVaccination.css" />
-        <option value="$PROJECT_DIR$/src/components/App/Overview/Overview.js" />
         <option value="$PROJECT_DIR$/src/components/Vaccinations/Vaccinations/Vaccinations.js" />
         <option value="$PROJECT_DIR$/src/components/Vaccinations/Vaccinations/NextRefresher.js" />
         <option value="$PROJECT_DIR$/src/components/App/MyDatePicker/MyDatePicker.js" />
         <option value="$PROJECT_DIR$/src/utils/storage.js" />
         <option value="$PROJECT_DIR$/src/Main.js" />
         <option value="$PROJECT_DIR$/App.js" />
+        <option value="$PROJECT_DIR$/src/navigation/RootNavigator.js" />
+        <option value="$PROJECT_DIR$/src/screens/Vaccinations/VaccinationListing/VaccinationListingScreen.js" />
+        <option value="$PROJECT_DIR$/src/screens/Vaccinations/RefreshListing/RefreshListingScreen.js" />
+        <option value="$PROJECT_DIR$/src/containers/Vaccinations/components/RefreshListing/RefreshListingContainer.js" />
+        <option value="$PROJECT_DIR$/src/navigation/MainTabNavigator.js" />
+        <option value="$PROJECT_DIR$/src/styles/colors.js" />
+        <option value="$PROJECT_DIR$/src/components/Vaccinations/VaccinationListing/VaccinationListing.js" />
+        <option value="$PROJECT_DIR$/src/components/Vaccinations/RefreshListing/RefreshListing.js" />
+        <option value="$PROJECT_DIR$/src/containers/Vaccinations/components/VaccinationDetail/VaccinationDetailContainer.js" />
+        <option value="$PROJECT_DIR$/src/components/Vaccinations/VaccinationDetail/VaccinationDetail.js" />
+        <option value="$PROJECT_DIR$/src/components/App/Overview/Overview.js" />
         <option value="$PROJECT_DIR$/src/components/Vaccinations/VaccinationListing/VaccinationListingItem.js" />
         <option value="$PROJECT_DIR$/src/components/Vaccinations/AddVaccination/AddVaccination.js" />
-        <option value="$PROJECT_DIR$/src/components/Vaccinations/VaccinationListing/VaccinationListing.js" />
+        <option value="$PROJECT_DIR$/src/components/Vaccinations/RefreshListing/RefreshListingItem.js" />
         <option value="$PROJECT_DIR$/src/containers/Vaccinations/components/VaccinationListing/VaccinationListingContainer.js" />
       </list>
     </option>
@@ -185,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,6 +169,66 @@
               <item name="ImpfApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ImpfApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImpfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImpfApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImpfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImpfApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImpfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImpfApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Overview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImpfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImpfApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Vaccinations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImpfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImpfApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Vaccinations" type="462c0819:PsiDirectoryNode" />
+              <item name="AddVaccination" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImpfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImpfApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Vaccinations" type="462c0819:PsiDirectoryNode" />
+              <item name="RefreshListing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImpfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImpfApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Vaccinations" type="462c0819:PsiDirectoryNode" />
+              <item name="VaccinationDetail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImpfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImpfApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Vaccinations" type="462c0819:PsiDirectoryNode" />
+              <item name="VaccinationListing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ImpfApp" type="b2602c69:ProjectViewProjectNode" />
@@ -233,16 +265,7 @@
               <item name="containers" type="462c0819:PsiDirectoryNode" />
               <item name="Vaccinations" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="AddVaccination" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImpfApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImpfApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Vaccinations" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="TestLoading" type="462c0819:PsiDirectoryNode" />
+              <item name="RefreshListing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ImpfApp" type="b2602c69:ProjectViewProjectNode" />
@@ -259,21 +282,58 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
               <item name="Vaccinations" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="VaccinationListing" type="462c0819:PsiDirectoryNode" />
+              <item name="stores" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ImpfApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ImpfApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImpfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImpfApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
               <item name="Vaccinations" type="462c0819:PsiDirectoryNode" />
-              <item name="stores" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImpfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImpfApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="Vaccinations" type="462c0819:PsiDirectoryNode" />
+              <item name="AddVaccination" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImpfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImpfApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="Vaccinations" type="462c0819:PsiDirectoryNode" />
+              <item name="RefreshListing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImpfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImpfApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="Vaccinations" type="462c0819:PsiDirectoryNode" />
+              <item name="VaccinationDetail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImpfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImpfApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="Vaccinations" type="462c0819:PsiDirectoryNode" />
+              <item name="VaccinationListing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,11 +349,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Flori\Desktop\Projekte\ImpfApp\src\components\Vaccinations\RefreshListing" />
+      <recent name="C:\Users\Flori\Desktop\Projekte\ImpfApp\src\components\Vaccinations" />
       <recent name="C:\Users\Flori\Desktop\Projekte\ImpfApp\src\containers\Vaccinations\components" />
+      <recent name="C:\Users\Flori\Desktop\Projekte\ImpfApp\src\screens\Vaccinations" />
       <recent name="C:\Users\Flori\Desktop\Projekte\ImpfApp\src" />
-      <recent name="C:\Users\Flori\Desktop\Projekte\ImpfApp\src\components\Vaccinations\Vaccinations" />
-      <recent name="C:\Users\Flori\Desktop\Projekte\ImpfApp\src\components\Clients" />
-      <recent name="C:\Users\Flori\Desktop\Projekte\ImpfApp\src\containers\Clients\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -319,33 +379,34 @@
       <option name="presentableId" value="Default" />
       <updated>1528211792687</updated>
       <workItem from="1528211794467" duration="14135000" />
+      <workItem from="1528548571762" duration="13711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14135000" />
+    <option name="totallyTimeSpent" value="27846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info id="npm" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="TypeScript" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
@@ -356,6 +417,76 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/AddVaccination/AddVaccination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/VaccinationListing/VaccinationListing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/VaccinationListing/VaccinationListingItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App/Overview/Overview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navigation/RootNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Vaccinations/components/VaccinationListing/VaccinationListingContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Vaccinations/proptypes/vaccinationPropType.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -367,33 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Vaccinations/components/VaccinationDetail/VaccinationDetailContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="4" column="66" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/VaccinationDetail/VaccinationDetail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/AddVaccination/AddVaccination.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -434,23 +538,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/storage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/Vaccinations/NextRefresher.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/storage.js" />
     <entry file="file://$PROJECT_DIR$/src/components/App/MyDatePicker/MyDatePicker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -461,56 +549,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/navigation/MainTabNavigator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/navigation/RootNavigator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App/Overview/Overview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.js" />
     <entry file="file://$PROJECT_DIR$/src/containers/Vaccinations/components/TestLoading/VaccinationListingContainer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -527,20 +566,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/VaccinationListing/VaccinationListingItem.js">
+    <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="87" />
+        <state relative-caret-position="204">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/AddVaccination/AddVaccination.js">
+    <entry file="file://$PROJECT_DIR$/src/screens/Vaccinations/RefreshListing/RefreshListingScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        <state relative-caret-position="102">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Vaccinations/components/RefreshListing/RefreshListingContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navigation/MainTabNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/RefreshListing/RefreshListing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/colors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navigation/RootNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/Vaccinations/NextRefresher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Vaccinations/VaccinationDetail/VaccinationDetailScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App/Overview/Overview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/VaccinationListing/VaccinationListingItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Vaccinations/components/VaccinationDetail/VaccinationDetailContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="56" column="55" lean-forward="true" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/VaccinationDetail/VaccinationDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Vaccinations/VaccinationListing/VaccinationListingScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -549,8 +712,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/VaccinationListing/VaccinationListing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        <state relative-caret-position="153">
+          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/RefreshListing/RefreshListingItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Vaccinations/AddVaccination/AddVaccination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -559,8 +739,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Vaccinations/components/VaccinationListing/VaccinationListingContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        <state relative-caret-position="298">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

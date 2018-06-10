@@ -1,5 +1,5 @@
 import React from 'react';
-import ClientListingContainer
+import VaccinationListingContainer
   from '../../../containers/Vaccinations/components/VaccinationListing/VaccinationListingContainer';
 
 class VaccinationListingScreen extends React.Component {
@@ -9,7 +9,7 @@ class VaccinationListingScreen extends React.Component {
 
   render() {
     return (
-      <ClientListingContainer />
+      <VaccinationListingContainer />
     );
   }
 }

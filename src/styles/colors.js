@@ -3,6 +3,7 @@ const COLORS = {
   SECONDARY: '#ABC8E2',
   INACTIVE: '#C4D7ED',
   WHITE: '#FFFFFF',
+  LIGHTGRAY: '#f3f3f3',
 };
 
 export default COLORS;

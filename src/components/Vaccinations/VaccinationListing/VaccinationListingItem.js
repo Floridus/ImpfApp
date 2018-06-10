@@ -1,8 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { TouchableOpacity, Text } from 'react-native';
-import VaccinationPropType from '../../../containers/Vaccinations/proptypes/vaccinationPropType';
 import { withNavigation } from 'react-navigation';
 import { ListItem } from 'react-native-elements';
+import COLORS from '../../../styles/colors';
 
 class VaccinationListingItem extends React.Component {
   /**
@@ -23,7 +24,7 @@ class VaccinationListingItem extends React.Component {
 
   render() {
     const { vaccination } = this.props;
-    const testAvatar = 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg';
+    const testAvatar = 'https://cdn.icon-icons.com/icons2/568/PNG/512/vaccine_2_icon-icons.com_54420.png';
 
     return (
       <TouchableOpacity
@@ -32,7 +33,8 @@ class VaccinationListingItem extends React.Component {
         <ListItem
           title={vaccination.type}
           subtitle={vaccination.date}
-          avatar={{ source: { uri: testAvatar } }}
+          avatar={{ uri: testAvatar }}
+          avatarStyle={{ backgroundColor: COLORS.LIGHTGRAY }}
         />
       </TouchableOpacity>
     );
@@ -40,7 +42,7 @@ class VaccinationListingItem extends React.Component {
 }
 
 VaccinationListingItem.propTypes = {
-  vaccination: VaccinationPropType.isRequired,
+  vaccination: PropTypes.object.isRequired,
 };
 
 VaccinationListingItem.defaultProps = {};

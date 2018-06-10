@@ -5,6 +5,7 @@ import Icon from '../../common/components/Icon/Icon';
 import VaccinationListingScreen
   from '../screens/Vaccinations/VaccinationListing/VaccinationListingScreen';
 import OverviewScreen from '../screens/App/Overview/OverviewScreen';
+import RefreshListingScreen from '../screens/Vaccinations/RefreshListing/RefreshListingScreen';
 
 const MainTabNavigator = createBottomTabNavigator({
     Overview: {
@@ -27,6 +28,18 @@ const MainTabNavigator = createBottomTabNavigator({
         tabBarIcon: (iconState) => {
           return (
             <Icon set="material" name="healing" size={20} color={iconState.tintColor} />
+          );
+        },
+      }),
+    },
+    Refreshes: {
+      screen: RefreshListingScreen,
+      path: 'refreshes',
+      navigationOptions: ({ navigation }) => ({
+        title: 'Auffrischungen',
+        tabBarIcon: (iconState) => {
+          return (
+            <Icon set="material" name="autorenew" size={20} color={iconState.tintColor} />
           );
         },
       }),

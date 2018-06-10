@@ -1,14 +1,12 @@
 import React from 'react';
-import { withNavigation } from 'react-navigation';
 
-import VaccinationListing
-  from '../../../../components/Vaccinations/VaccinationListing/VaccinationListing';
+import RefreshListing
+  from '../../../../components/Vaccinations/RefreshListing/RefreshListing';
 import { AsyncStorage } from 'react-native';
 import LoadingIndicator from '../../../../components/App/LoadingIndicator/LoadingIndicator';
 
-class VaccinationListingContainer extends React.Component {
+class RefreshListingContainer extends React.Component {
   constructor(props) {
-    console.log('constructor');
     super(props);
 
     this.state = {
@@ -34,21 +32,6 @@ class VaccinationListingContainer extends React.Component {
 
   shouldComponentUpdate(nextProps, nextState) {
     console.log(nextProps, nextState);
-    const shouldUpdate = nextProps.navigation.getParam('update', false);
-    console.log('shouldComponentUpdate() - shouldUpdate', shouldUpdate);
-    if (shouldUpdate) {
-      nextProps.navigation.setParams({ update: false });
-      this._fetchData()
-        .then(val => {
-          this.setState({
-            loading: false,
-            vaccinations: val,
-          });
-        })
-        .catch(error => {
-          console.error(error);
-        });
-    }
     return true;
   }
 
@@ -58,13 +41,11 @@ class VaccinationListingContainer extends React.Component {
   async _fetchData() {
     console.log('fetchData');
 
-    const { navigation } = this.props;
-    const shouldUpdate = navigation.getParam('update', false);
-    console.log('render() - shouldUpdate', shouldUpdate);
-
     let value;
     try {
+      console.log('test');
       value = await AsyncStorage.getItem('@ImpfAppStore:vaccinations');
+      console.log('Test2');
       if (value === null) {
         value = [];
       } else {
@@ -88,15 +69,16 @@ class VaccinationListingContainer extends React.Component {
     }
 
     const { vaccinations } = this.state;
+    console.log(vaccinations);
 
     return (
-      <VaccinationListing vaccinations={vaccinations} />
+      <RefreshListing vaccinations={vaccinations} />
     );
   }
 }
 
-VaccinationListingContainer.propTypes = {};
+RefreshListingContainer.propTypes = {};
 
-VaccinationListingContainer.defaultProps = {};
+RefreshListingContainer.defaultProps = {};
 
-export default withNavigation(VaccinationListingContainer);
+export default RefreshListingContainer;
